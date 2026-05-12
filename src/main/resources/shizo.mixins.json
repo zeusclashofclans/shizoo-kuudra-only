@@ -25,8 +25,7 @@
       "KuudraMixin",
       "MixinGameRenderer",
       "MixinKeyboardInput",
-      "MixinScreenEffectRenderer"
-
+      "MixinScreenEffectRenderer",
 	],
     "client": [
       "accessors.KeyMappingAccessor",
@@ -36,7 +35,8 @@
       "accessors.LocalPlayerAccessor",
       "accessors.MinecraftAccessor",
       "accessors.DeltaTrackerTimerAccessor",
-      "accessors.CompositeRenderTypeAccessor"
+      "accessors.CompositeRenderTypeAccessor",
+		"accessors.BeaconBeamAccessor"
     ],
 	"injectors": {
 		"defaultRequire": 1
